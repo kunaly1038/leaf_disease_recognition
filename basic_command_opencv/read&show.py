@@ -10,6 +10,8 @@ k=cv2.waitKey(0)
 x=cv2.destroyAllWindows()
 print(k)
 print(x)
+
+plt.imshow(img,cmap='gray',interpolation='bicubic')
 plt.plot([50],[100],'c',Linewidth=5)
 plt.show()
 
